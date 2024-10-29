@@ -4,7 +4,7 @@ This repository contains a public subset of custom indicators for NinjaTrader 8 
 
 ## Indicators Overview
 
-### 1. Session Open Indicator (AAA_SessionOpen)
+### 1. Session Open Indicator ([AAA_SessionOpen](src/AAA_SessionOpen.cs))
 Visualizes market session openings by drawing vertical lines at specified times for both US (NYSE) and European (London) markets.
 
 ![Session Open Indicator Example](img/SessionOpen.png)
@@ -15,7 +15,7 @@ Visualizes market session openings by drawing vertical lines at specified times 
 - Customizable line appearance (color, thickness, style, transparency)
 - Automatic timezone conversion between markets
 
-### 2. Cash Session Levels (AAA_CashSessionLevels)
+### 2. Cash Session Levels ([AAA_CashSessionLevels](src/AAA_CashSessionLevels.cs))
 Tracks and displays price levels at session open and close times, helping traders identify key price points and potential support/resistance levels.
 
 ![Cash Session Levels Example](img/CashSessionLevels.png)
@@ -25,7 +25,7 @@ Tracks and displays price levels at session open and close times, helping trader
 - Distinct visualization for open and close prices
 - Automatic timezone handling
 
-### 3. Clock Indicator (AAA_Clock)
+### 3. Clock Indicator ([AAA_Clock](src/AAA_Clock.cs))
 Displays the current wall clock time in a specified timezone (by default, EST for NYSE) directly on your chart.
 
 ![Clock Indicator Example](img/Clock.png)
