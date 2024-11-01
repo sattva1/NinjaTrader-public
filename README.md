@@ -35,6 +35,17 @@ Displays the current wall clock time in a specified timezone (by default, EST fo
 - Adjustable position (top/bottom, left/right)
 - Customizable font parameters
 
+### 4. Economic Calendar ([AAA_EconomicCalendar](src/AAA_EconomicCalendar.cs))
+Displays economic events from the Forex Factory calendar directly on an instrument chart as vertical line drawings.
+
+![Economic Calendar Example](img/EconomicCalendar.png)
+
+#### Key Features:
+- Automatic data download from Forex Factory
+- Filterable by currency codes and impact levels
+- Customizable visualization (color, thickness, style) with different transparency levels for high/medium/low impact events
+- Hourly data refresh
+
 ## Installation
 
 1. Download the indicator zip from the `packages` subdirectory
